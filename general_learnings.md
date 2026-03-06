@@ -2,6 +2,8 @@
 
 1.  For FastAPI backend, to implement system level environment configuration, use _pydantic-settings_ for environment variables.
 2.  In pydantic_settings, use BaseSettings class, and SettingsConfigDict class. Below is a sample code:
+
+    ```
     from pydantic_settings import BaseSettings, SettingsConfigDict
     class Settings(BaseSettings):
 
@@ -17,3 +19,4 @@
                         super().__init__(**data)
 
                 settings = Settings()
+    ```
