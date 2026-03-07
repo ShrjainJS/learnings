@@ -32,7 +32,7 @@
      <span style="color:red">Ex: Fetching an array element with index.</span>
    - **_O(logn)_**: **Logrithmic Time** - Considered very **efficient**, The problem size (input size) is halved at every step.
      <span style="color:red">Ex: Finding a word in dictionary, or doing Binary Search on a sorted list.</span>
-   - **_O(n)_**: **Linear Time** - Number of operations increase in direct proportion to the input size. <span style="color:red">Ex: For Loop</span>
+   - **_O(n)_**: **Linear Time** - Number of operations increase in direct proportion to the input size. <span style="color:red">Ex: a simple For Loop</span>
    - **_O(n logn)_**: **Linearithmic Time** - Considered **Fast but slower than Linear search**. You divide input into smaller inputs, sort, merge and then do Log search.
      <span style="color:red">Ex: Merge Sort algorithm</span>
    - **_O(n^2)_**: **Quadratic Time** - Considered slow and number of operations in the algorithm is proprotional to the power of 2 of the input size. If size doubles, number of steps quadruples.<span style="color:red">Ex: Nested for loop</span>
